@@ -30,6 +30,6 @@ public class UsuarioTest {
 
         assertEquals(1L, usuario.getId());
         assertEquals("Ana", usuario.getNombre());
-        assertEquals("ana@email.com", usuario.getEmail());
+        assertEquals("ana1@email.com", usuario.getEmail());
     }
 }
