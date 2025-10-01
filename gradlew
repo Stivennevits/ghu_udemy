@@ -17,4 +17,4 @@ fi
 
 DIRNAME=$(dirname "$0")
 
-exec "$JAVA_EXE" -jar "$DIRNAME/gradle/wrapper/gradle-wrapper.jar" "$@"
+exec "$JAVA_EXE" -jar "$DIRNAME/build/libs/ghu_udemy-0.0.1-SNAPSHOT.jar" "$@"
