@@ -1,6 +1,8 @@
 name: 02-evento issue
 on:
   push:
+    paths-ignore:
+      - '*.md'
   issues:
     types:
         - opened
@@ -10,4 +12,4 @@ jobs:
     steps:
     - name: Hola mundo
       run: echo "Hola mundo !!"
-      
+
